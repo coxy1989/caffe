@@ -1,7 +1,17 @@
 # Caffe
 
-[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
-[![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
+**FORK**
+
+This fork adds the *triangular* and *triangular2* learning rate policies to caffe.
+
+Files modified:
+
+- `src/caffe/proto/caffe.proto`
+- `src/caffe/solvers/sgd_solver.cpp`
+
+[view the diff](https://github.com/coxy1989/caffe/commit/e9b4e44bcebba594d3b9e14ac3a2f8516612d7d3)
+
+----
 
 Caffe is a deep learning framework made with expression, speed, and modularity in mind.
 It is developed by Berkeley AI Research ([BAIR](http://bair.berkeley.edu))/The Berkeley Vision and Learning Center (BVLC) and community contributors.
