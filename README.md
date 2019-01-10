@@ -1,7 +1,22 @@
-# Caffe
 
-[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
-[![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
+# FORK
+
+This fork:
+
+1. Adds the *triangular* and *triangular2* learning rate policies [1] to caffe. 
+    - `src/caffe/proto/caffe.proto`
+    - `src/caffe/solvers/sgd_solver.cpp`
+    - [view the diff](https://github.com/coxy1989/caffe/commit/a99de4c6dcc116eb3e95bdae9ee62b7e116a2044)
+
+2. Adds the *superconvergence* [2] directory to the caffe examples.
+    - [view the diff](https://github.com/coxy1989/caffe/commit/0813505aee7ea57310eb5115b63e88b36b5bc34b)
+
+## References
+
+[1] Leslie N. Smith. Cyclical Learning Rates for Training Neural Networks. [arXiv:1506.01186](https://arxiv.org/pdf/1506.01186.pdf), 2015.
+
+---
+# Caffe
 
 Caffe is a deep learning framework made with expression, speed, and modularity in mind.
 It is developed by Berkeley AI Research ([BAIR](http://bair.berkeley.edu))/The Berkeley Vision and Learning Center (BVLC) and community contributors.
