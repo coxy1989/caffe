@@ -15,6 +15,9 @@ This fork:
 
 [1] Leslie N. Smith. Cyclical Learning Rates for Training Neural Networks. [arXiv:1506.01186](https://arxiv.org/pdf/1506.01186.pdf), 2015.
 
+[2] Leslie N. Smith, Nicholay Topin. Super-Convergence: Very Fast Training of Neural Networks Using Large Learning Rates.
+[arXiv:1708.07120](https://arxiv.org/abs/1708.07120)
+
 ---
 # Caffe
 
