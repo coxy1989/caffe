@@ -10,7 +10,7 @@ This fork:
 
 2. Adds the *superconvergence* [2] directory to the caffe examples.
     - [view the diff](https://github.com/coxy1989/caffe/commit/0813505aee7ea57310eb5115b63e88b36b5bc34b)
-
+    
 ## References
 
 [1] Leslie N. Smith. Cyclical Learning Rates for Training Neural Networks. [arXiv:1506.01186](https://arxiv.org/pdf/1506.01186.pdf), 2015.
